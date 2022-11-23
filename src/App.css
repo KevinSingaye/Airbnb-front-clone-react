@@ -33,54 +33,51 @@ nav {
     text-align: center;
 }
 
-.CardsContainer {
+.cards-list {
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.CardContainer {
+    flex: 0 0 auto;
+    /* ADD */
+    display: flex;
+    /* ADD */
+    flex-direction: column;
+    /* ADD */
     justify-content: space-between;
     margin-top: 50px;
 }
 
-.CardsContainer img {
+.cardPicImg {
     margin-left: 10px;
     margin-right: 10px;
     width: 250px;
     height: auto;
 }
 
-.Star {
-    margin-top: 10px;
-}
-
 .PicText {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     line-height: 0px;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 
 .PicText img {
-    width: 25px;
+    width: 20px;
 }
 
 .PicText p {
     font-family: Poppins;
     font-weight: 500;
-    position: relative;
-    top: -28px;
-    left: 40px;
-    text-align: left;
 }
 
 .PicText span {
     color: lightgray;
-    ;
-}
-
-.PicText strong {
-    text-align: left;
-    position: relative;
-}
-
-.CardPic {
-    display: flex;
-    flex-direction: column;
+    margin-left: 3px;
+    margin-right: 3px;
 }

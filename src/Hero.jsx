@@ -1,5 +1,5 @@
 import React from "react"
-import Grid from './assets/grid.png'
+import Grid from '../public/assets/grid.png'
 
 function Hero() {
 
