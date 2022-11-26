@@ -49,6 +49,7 @@ nav {
     /* ADD */
     justify-content: space-between;
     margin-top: 50px;
+    position: relative;
 }
 
 .cardPicImg {
@@ -56,6 +57,16 @@ nav {
     margin-right: 10px;
     width: 250px;
     height: auto;
+}
+
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
 .PicText {

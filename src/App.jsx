@@ -11,12 +11,8 @@ function App() {
   const [count, setCount] = useState(0)
  const cards = data.map(item => {
       return (
-            <Card coverImg={item.coverImg}
-                rating={item.stats.rating}
-                reviewCount={item.stats.reviewCount}
-                location={item.location}
-                title={item.title}
-                price={item.price}/>
+            <Card   key={item.id}
+                {...item} />
         )
       })
 

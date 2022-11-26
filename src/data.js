@@ -1,7 +1,7 @@
 export default [{
         id: 1,
-        title: "Life Lessons with Katie Zaferes",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
+        title: "Visit the Grand Canynon",
+        description: "Visit the famous Grand canynon",
         price: 136,
         coverImg: "grand-canyon.png",
         stats: {
@@ -13,16 +13,16 @@ export default [{
     },
     {
         id: 2,
-        title: "Learn Wedding Photography",
-        description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+        title: "Travel in Japan",
+        description: "Go ahead and visit the beautiful Country of Japan",
         price: 125,
         coverImg: "japan-forest.png",
         stats: {
             rating: 5.0,
             reviewCount: 30
         },
-        location: "Online",
-        openSpots: 27,
+        location: "Japan",
+        openSpots: 0,
     },
     {
         id: 3,
@@ -35,6 +35,46 @@ export default [{
             reviewCount: 2
         },
         location: "Norway",
+        openSpots: 2,
+    },
+    {
+        id: 4,
+        title: "Scuba Diving in Seychelles",
+        description: "Experience the beautiful landscape",
+        price: 50,
+        coverImg: "scuba-diving.png",
+        stats: {
+            rating: 4.8,
+            reviewCount: 2
+        },
+        location: "Seychelles",
+        openSpots: 0,
+    },
+    {
+        id: 5,
+        title: "Life lessons with Ankur",
+        description: "Lots of good teaching",
+        price: 50,
+        coverImg: "ankur-warikoo.png",
+        stats: {
+            rating: 4.8,
+            reviewCount: 2
+        },
+        location: "Online",
+        openSpots: 3,
+    },
+    {
+        id: 6,
+        title: "Watch the Canvas Stand- up",
+        description: "Best stand up in town",
+        price: 50,
+        coverImg: "stand-up.png",
+        stats: {
+            rating: 4.8,
+            reviewCount: 2
+        },
+        location: "Canada",
         openSpots: 3,
     }
+
 ]

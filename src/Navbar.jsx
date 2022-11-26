@@ -1,5 +1,5 @@
 import React from "react"
-import AirBnblogo from '../public/assets/Airbnb_Logo_Bélo.png'
+import AirBnblogo from './assets/Airbnb_Logo_Bélo.png'
 
 function Navbar() {
     return (
